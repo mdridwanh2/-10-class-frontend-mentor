@@ -1,0 +1,135 @@
+/* *COMMENT STARTS HERE */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{
+    background-color: #F3EAE3;
+}
+.container{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+}
+ 
+/* *COMMENT ENDS HERE */
+
+
+
+
+
+
+/* *two box starts here */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-1{
+    width: 300px;
+    height: 404px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-image: url(./image/Olena.png);
+    background-position: center;
+    background-size: 305px;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 10px 1px #aba4a4 ;
+}
+
+.box-2{
+    width: 300px;
+    height: 404px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #FFFFFF;
+    box-shadow: 1px 1px 10px 1px #aba4a4 ;
+}
+
+.box-2 h3{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    color: #9b9794;
+    font-size: 12px;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 7%;
+    letter-spacing: 5.5px;
+}
+
+.box-2 h2{
+    margin-left: 10%;
+    text-transform: capitalize;
+    font-size: 25px;
+}
+
+.box-2 p{
+    margin-left: 10%;
+    margin-top: 7%;
+    color: #9b9794;
+    margin-right: 7%;
+}
+/* *two box ends here */
+
+
+
+
+
+
+
+/* *price starts here */
+.price{
+    display: inline-block;
+    margin-left: 10%;
+    font-size: 30px;
+    margin-top: 7%;
+    color: #208666;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+del{
+    display: inline-block;
+    color: #9b9794;
+    font-size: 16px;
+    margin-left: 10px;
+    font-weight: 200;
+}
+/* *price ends here */
+
+
+
+
+
+
+
+/* *button starts here */
+button{
+    text-transform: capitalize;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+button{
+    padding: 10px 70px;
+    border: none;
+    background-color: #208666;
+    border-radius: 5px;
+    font-size: 15px;
+    color: white;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: #076250;
+}
+/* *button ends here */
+
+
